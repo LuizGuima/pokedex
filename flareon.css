@@ -1,0 +1,29 @@
+.flareon {
+  background: #be653d;
+  align-items: center;
+  border-radius: 30px;
+  height: 100vh;
+}
+
+.corpo-flareon {
+  display: flex;
+  margin: 100px 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.corpo-flareon img {
+  width: 100%;
+  height: 400px;
+  margin-top: 200px;
+}
+
+.corpo-flareon h2 {
+  font-size: 20px;
+  max-width: 650px;
+  line-height: 64px;
+  background-color: white;
+  margin: 50px;
+  padding-left: 10px;
+  box-shadow: 15px 15px 0 black;
+}

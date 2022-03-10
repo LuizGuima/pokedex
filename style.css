@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+}
+
+nav h1 {
+  font-family: "Press Start 2P", cursive;
+}
+
+nav {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: "Press Start 2P", cursive;
+  display: inline-block;
+  height: 30px;
+  padding-top: 6px;
+  width: 150px;
+  transition: 0.5s;
+  padding-left: 10px;
+}
+
+header ul li a:hover {
+  transition: 0.5s;
+}
+
+header ul li a.bulba-nav {
+  background: #23d60f;
+  box-shadow: 5px 5px 0 #1ebdb1;
+}
+
+header ul li a.bulba-nav:hover {
+  background: #1ebdb1;
+  box-shadow: 5px 5px 0 #23d60f;
+}
+
+header ul li a.gengar-nav {
+  background: #673ab7;
+  box-shadow: 5px 5px 0 black;
+}
+
+header ul li a.gengar-nav:hover {
+  background: black;
+  box-shadow: 5px 5px 0 #673ab7;
+}
+
+header ul li a.flareon-nav {
+  background: #be653d;
+  box-shadow: 5px 5px 0 #ddc793;
+}
+
+header ul li a.flareon-nav:hover {
+  background: #ddc793;
+  box-shadow: 5px 5px 0 #be653d;
+}
+
+.pokedex {
+  background: gray;
+  align-items: center;
+  border-radius: 30px;
+  height: 100vh;
+}
+
+.pokedex img {
+  width: 500px;
+  height: 100%;
+  margin-left: 200px;
+}
